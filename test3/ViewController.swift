@@ -41,6 +41,12 @@ class ViewController: UIViewController {
         label.text = String(number)
     }
     
+    @IBAction func dubble(){
+        
+        number = number * 2
+        label.text = String(number)
+    }
+    
     
     
 
