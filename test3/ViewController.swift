@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 class ViewController: UIViewController {
     
@@ -48,10 +49,40 @@ class ViewController: UIViewController {
         print(number)
     }
     
-
+    @IBAction func showHUD() {
+        
+        SVProgressHUD.show()
+        // SVProgressHUD.show(UIImage(named: "うさぎ矢印右.png"), status: "うさぎ")
+        
+    }
+    
+    
+    @IBAction func dismissHUD() {
+        
+        SVProgressHUD.dismiss()
+        
+        
+    }
     
     
     
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
